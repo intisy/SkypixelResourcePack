@@ -1,0 +1,1 @@
+{"parent":"item/handheld","textures":{"layer0":"item/wooden_sword"},"overrides":[{"predicate":{"custom_model_data":1000001},"model":"custom/minecraft_party/equipment/katana"},{"predicate":{"custom_model_data":1000002},"model":"custom/minecraft_party/equipment/boxing_glove"},{"predicate":{"custom_model_data":1000003},"model":"custom/minecraft_party/equipment/machete"}]}

@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"item/bucket"},"overrides":[{"predicate":{"custom_model_data":1000001},"model":"custom/general/specialitems/bottomless_bucket"}]}

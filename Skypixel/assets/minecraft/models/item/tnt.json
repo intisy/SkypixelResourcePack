@@ -1,0 +1,1 @@
+{"parent":"block/tnt","overrides":[{"predicate":{"custom_model_data":1000001},"model":"custom/factions/raiditems/tnt/tnt_1"},{"predicate":{"custom_model_data":1000002},"model":"custom/factions/raiditems/tnt/tnt_2"},{"predicate":{"custom_model_data":1000003},"model":"custom/factions/raiditems/tnt/tnt_3"}]}

@@ -1,0 +1,1 @@
+{"providers":[{"type":"space","advances":{" ":6}},{"type":"bitmap","file":"minecraft:customfont/charset/small_font.png","ascent":7,"height":7,"chars":["ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ"]},{"type":"bitmap","file":"minecraft:customfont/pixels/backspace.png","ascent":-60000,"height":-3,"chars":[""]}]}

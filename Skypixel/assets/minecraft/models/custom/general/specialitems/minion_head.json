@@ -1,0 +1,1 @@
+{"parent":"builtin/entity","textures":{"particle":"block/soul_sand"},"display":{"thirdperson_righthand":{"rotation":[80,180,10],"translation":[-3.6,0.5,23.5],"scale":[1.5,1.5,1.5]},"gui":{"rotation":[0,0,0],"translation":[0,3,0]},"head":{"scale":[1.1,1.1,1.1]}}}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/stone_pickaxe"},"overrides":[{"predicate":{"custom_model_data":1000001},"model":"custom/minecraft_party/equipment/red_lightsaber"},{"predicate":{"custom_model_data":1000002},"model":"custom/minecraft_party/equipment/blue_lightsaber"}]}

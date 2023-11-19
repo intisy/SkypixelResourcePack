@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"block/ladder"},"overrides":[{"predicate":{"custom_model_data":1000001},"model":"custom/factions/raiditems/ladder/ladder_1"},{"predicate":{"custom_model_data":1000002},"model":"custom/factions/raiditems/ladder/ladder_2"},{"predicate":{"custom_model_data":1000003},"model":"custom/factions/raiditems/ladder/ladder_3"}]}

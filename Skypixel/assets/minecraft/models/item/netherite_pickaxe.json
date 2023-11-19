@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/netherite_pickaxe"},"overrides":[{"predicate":{"custom_model_data":2000001},"model":"custom/general/tools/super_tools/vs_tesla_pickaxe"},{"predicate":{"custom_model_data":2000002},"model":"custom/general/tools/ender_tools/enderdragon_pickaxe"}]}
