@@ -1,1 +1,1 @@
-{"parent":"item/handheld","textures":{"layer0":"item/netherite_hoe"},"overrides":[{"predicate":{"custom_model_data":2000001},"model":"custom/general/tools/super_tools/vs_tesla_hoe"},{"predicate":{"custom_model_data":2000002},"model":"custom/general/tools/ender_tools/enderdragon_hoe"}]}
+{"parent":"item/handheld","textures":{"layer0":"item/netherite_hoe"},"overrides":[]}
