@@ -24,11 +24,8 @@ jobs:
 
       - name: Zip Project
         run: |
-          zip -r SkypixelResourcePack.zip \
-            --exclude=SkypixelResourcePack.zip \
-            --exclude=.git/* \
-            --exclude=.github/*
-        
+          find . -type f -not -path './.git/*' -not -path './.github/*' -exec zip -r SkypixelResourcePack.zip {} +
+
       - name: Upload Zip
         run: gh release upload ${{ github.ref_name }} SkypixelResourcePack.zip
 
