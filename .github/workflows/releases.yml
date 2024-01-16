@@ -23,4 +23,4 @@ jobs:
         run: gh release list
 
       - name: Upload Project
-        run: gh release upload ${{ github.ref_name }} .
+        run: gh release upload ${{ github.ref_name }} --pattern "*" --clobber
