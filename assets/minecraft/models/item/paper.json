@@ -1,1 +1,758 @@
-{"parent":"item/generated","textures":{"layer0":"item/paper"},"overrides":[{"predicate":{"custom_model_data":1000001},"model":"custom/factions/items/war_declaration"},{"predicate":{"custom_model_data":1000100},"model":"custom/general/specialitems/text_hologram"},{"predicate":{"custom_model_data":1000101},"model":"custom/general/specialitems/home_scroll"},{"predicate":{"custom_model_data":1000102},"model":"custom/general/specialitems/warp_scroll"},{"predicate":{"custom_model_data":1000103},"model":"custom/general/treasurechests/treasurechest_item"},{"predicate":{"custom_model_data":1000105},"model":"custom/general/cosmetics/tools/xmas_fishingrod_present"},{"predicate":{"custom_model_data":1000106},"model":"custom/minecraft_party/icons/reset_to_checkpoint"},{"predicate":{"custom_model_data":1000107},"model":"custom/minecraft_party/icons/players_visible"},{"predicate":{"custom_model_data":1000108},"model":"custom/minecraft_party/icons/players_invisible"},{"predicate":{"custom_model_data":1000109},"model":"custom/minecraft_party/icons/ranking"},{"predicate":{"custom_model_data":1000110},"model":"custom/general/icons/booster"},{"predicate":{"custom_model_data":1000111},"model":"custom/general/icons/info"},{"predicate":{"custom_model_data":1000112},"model":"custom/general/icons/mail_closed"},{"predicate":{"custom_model_data":1000113},"model":"custom/general/icons/mail_open"},{"predicate":{"custom_model_data":1000114},"model":"custom/general/icons/package"},{"predicate":{"custom_model_data":1000115},"model":"custom/general/icons/stopwatch"},{"predicate":{"custom_model_data":1000116},"model":"custom/general/icons/vote_closed"},{"predicate":{"custom_model_data":1000117},"model":"custom/general/icons/vote_open"},{"predicate":{"custom_model_data":1000118},"model":"custom/general/icons/backpack"},{"predicate":{"custom_model_data":1000119},"model":"custom/general/icons/balloon"},{"predicate":{"custom_model_data":1000120},"model":"custom/general/icons/hat"},{"predicate":{"custom_model_data":1000121},"model":"custom/general/icons/particle"},{"predicate":{"custom_model_data":1000122},"model":"custom/general/icons/shopping_cart"},{"predicate":{"custom_model_data":1000123},"model":"custom/general/icons/single_crystal"},{"predicate":{"custom_model_data":1000124},"model":"custom/general/icons/skill"},{"predicate":{"custom_model_data":1000125},"model":"custom/general/icons/tool"},{"predicate":{"custom_model_data":1000126},"model":"custom/minecraft_party/icons/red_candy"},{"predicate":{"custom_model_data":1000127},"model":"custom/minecraft_party/icons/controller"},{"predicate":{"custom_model_data":1000128},"model":"custom/minecraft_party/icons/parachute"},{"predicate":{"custom_model_data":1000129},"model":"custom/minecraft_party/icons/boost"},{"predicate":{"custom_model_data":1000130},"model":"custom/minecraft_party/icons/minigames/block_jumps"},{"predicate":{"custom_model_data":1000131},"model":"custom/minecraft_party/icons/minigames/collect"},{"predicate":{"custom_model_data":1000132},"model":"custom/minecraft_party/icons/minigames/colorful_chaos"},{"predicate":{"custom_model_data":1000133},"model":"custom/minecraft_party/icons/minigames/death_cube"},{"predicate":{"custom_model_data":1000134},"model":"custom/minecraft_party/icons/minigames/dropper"},{"predicate":{"custom_model_data":1000135},"model":"custom/minecraft_party/icons/minigames/duels"},{"predicate":{"custom_model_data":1000136},"model":"custom/minecraft_party/icons/minigames/elytra_race"},{"predicate":{"custom_model_data":1000137},"model":"custom/minecraft_party/icons/minigames/gun_game"},{"predicate":{"custom_model_data":1000138},"model":"custom/minecraft_party/icons/minigames/horse_race"},{"predicate":{"custom_model_data":1000139},"model":"custom/minecraft_party/icons/minigames/hot_ground"},{"predicate":{"custom_model_data":1000140},"model":"custom/minecraft_party/icons/minigames/hot_potato"},{"predicate":{"custom_model_data":1000141},"model":"custom/minecraft_party/icons/minigames/jump_and_run"},{"predicate":{"custom_model_data":1000142},"model":"custom/minecraft_party/icons/minigames/king_of_the_hill"},{"predicate":{"custom_model_data":1000143},"model":"custom/minecraft_party/icons/minigames/lasertag"},{"predicate":{"custom_model_data":1000144},"model":"custom/minecraft_party/icons/minigames/minefield"},{"predicate":{"custom_model_data":1000145},"model":"custom/minecraft_party/icons/minigames/minefight"},{"predicate":{"custom_model_data":1000146},"model":"custom/minecraft_party/icons/minigames/musical_minecarts"},{"predicate":{"custom_model_data":1000147},"model":"custom/minecraft_party/icons/minigames/one_in_the_chamber"},{"predicate":{"custom_model_data":1000148},"model":"custom/minecraft_party/icons/minigames/paintball"},{"predicate":{"custom_model_data":1000149},"model":"custom/minecraft_party/icons/minigames/race"},{"predicate":{"custom_model_data":1000150},"model":"custom/minecraft_party/icons/minigames/remember_the_sequence"},{"predicate":{"custom_model_data":1000151},"model":"custom/minecraft_party/icons/minigames/shooting_range"},{"predicate":{"custom_model_data":1000152},"model":"custom/minecraft_party/icons/minigames/skywars"},{"predicate":{"custom_model_data":1000153},"model":"custom/minecraft_party/icons/minigames/slimejump"},{"predicate":{"custom_model_data":1000154},"model":"custom/minecraft_party/icons/minigames/spleef"},{"predicate":{"custom_model_data":1000155},"model":"custom/minecraft_party/icons/minigames/survival_games"},{"predicate":{"custom_model_data":1000156},"model":"custom/minecraft_party/icons/minigames/walls"},{"predicate":{"custom_model_data":1000157},"model":"custom/minecraft_party/icons/minigames/dragon_escape"},{"predicate":{"custom_model_data":1000158},"model":"custom/minecraft_party/icons/minigames/red_light_green_light"},{"predicate":{"custom_model_data":1000159},"model":"custom/minecraft_party/icons/minigames/replica"},{"predicate":{"custom_model_data":1000160},"model":"custom/general/icons/flags/flag_de"},{"predicate":{"custom_model_data":1000161},"model":"custom/general/icons/flags/flag_de_at"},{"predicate":{"custom_model_data":1000162},"model":"custom/general/icons/flags/flag_de_ch"},{"predicate":{"custom_model_data":1000163},"model":"custom/general/icons/flags/flag_en"},{"predicate":{"custom_model_data":1000164},"model":"custom/general/icons/flags/flag_es"},{"predicate":{"custom_model_data":1000165},"model":"custom/general/icons/flags/flag_fr"},{"predicate":{"custom_model_data":1000166},"model":"custom/general/icons/flags/flag_pt"},{"predicate":{"custom_model_data":1000167},"model":"custom/general/icons/flags/flag_ru"},{"predicate":{"custom_model_data":1000168},"model":"custom/general/icons/flags/flag_mxn"},{"predicate":{"custom_model_data":1000169},"model":"custom/minecraft_party/icons/minigames/flag_quiz"},{"predicate":{"custom_model_data":1000170},"model":"custom/general/specialitems/player_shop"},{"predicate":{"custom_model_data":1000171},"model":"custom/general/icons/gamemodes/bedwars"},{"predicate":{"custom_model_data":1000172},"model":"custom/general/icons/gamemodes/cactus"},{"predicate":{"custom_model_data":1000173},"model":"custom/general/icons/gamemodes/citybuild"},{"predicate":{"custom_model_data":1000174},"model":"custom/general/icons/gamemodes/factions"},{"predicate":{"custom_model_data":1000175},"model":"custom/general/icons/gamemodes/heroes"},{"predicate":{"custom_model_data":1000176},"model":"custom/general/icons/gamemodes/minecraft_party"},{"predicate":{"custom_model_data":1000177},"model":"custom/general/icons/gamemodes/minestar"},{"predicate":{"custom_model_data":1000178},"model":"custom/general/icons/gamemodes/reallife"},{"predicate":{"custom_model_data":1000179},"model":"custom/general/icons/gamemodes/realms"},{"predicate":{"custom_model_data":1000180},"model":"custom/general/icons/gamemodes/skyblock"},{"predicate":{"custom_model_data":1000181},"model":"custom/general/icons/gamemodes/smash"},{"predicate":{"custom_model_data":1000182},"model":"custom/general/icons/gamemodes/timejump"},{"predicate":{"custom_model_data":1000183},"model":"custom/general/icons/gamemodes/ultimate_knockout"},{"predicate":{"custom_model_data":1000184},"model":"custom/general/icons/util/cancel_icon"},{"predicate":{"custom_model_data":1000185},"model":"custom/general/icons/util/check_icon"},{"predicate":{"custom_model_data":1000186},"model":"custom/general/icons/util/gray_arrow_left"},{"predicate":{"custom_model_data":1000187},"model":"custom/general/icons/util/gray_arrow_right"},{"predicate":{"custom_model_data":1000188},"model":"custom/general/icons/util/green_arrow_left"},{"predicate":{"custom_model_data":1000189},"model":"custom/general/icons/util/green_arrow_right"},{"predicate":{"custom_model_data":1000190},"model":"custom/general/icons/single_rubine"},{"predicate":{"custom_model_data":1000200},"model":"custom/general/fishing/baits/common_fishing_bait"},{"predicate":{"custom_model_data":1000201},"model":"custom/general/fishing/baits/rare_fishing_bait"},{"predicate":{"custom_model_data":1000202},"model":"custom/general/fishing/baits/epic_fishing_bait"},{"predicate":{"custom_model_data":1000203},"model":"custom/general/fishing/baits/legendary_fishing_bait"},{"predicate":{"custom_model_data":1000204},"model":"custom/general/fishing/baits/jellyfish_tentacle_bait"},{"predicate":{"custom_model_data":1000205},"model":"custom/general/fishing/baits/corn_bait"},{"predicate":{"custom_model_data":1000206},"model":"custom/general/fishing/baits/worm_bait"},{"predicate":{"custom_model_data":1000207},"model":"custom/general/fishing/baits/dough_balls_bait"},{"predicate":{"custom_model_data":1000300},"model":"custom/smash/world_repair"},{"predicate":{"custom_model_data":1000301},"model":"custom/smash/speed"},{"predicate":{"custom_model_data":1000302},"model":"custom/smash/glowing"},{"predicate":{"custom_model_data":1000303},"model":"custom/general/icons/empty"},{"predicate":{"custom_model_data":1000304},"model":"custom/minecraft_party/icons/players_half_visible"},{"predicate":{"custom_model_data":1000305},"model":"custom/general/icons/flags/flag_it"},{"predicate":{"custom_model_data":1000321},"model":"custom/factions/items/healpotion/health_potion_0"},{"predicate":{"custom_model_data":1000322},"model":"custom/factions/items/healpotion/health_potion_1"},{"predicate":{"custom_model_data":1000323},"model":"custom/factions/items/healpotion/health_potion_2"},{"predicate":{"custom_model_data":1000324},"model":"custom/factions/items/healpotion/health_potion_3"},{"predicate":{"custom_model_data":1000325},"model":"custom/factions/items/healpotion/health_potion_4"},{"predicate":{"custom_model_data":1000326},"model":"custom/factions/items/healpotion/health_potion_5"},{"predicate":{"custom_model_data":1000327},"model":"custom/factions/items/healpotion/health_potion_6"},{"predicate":{"custom_model_data":1000331},"model":"custom/factions/items/crown"},{"predicate":{"custom_model_data":1000332},"model":"custom/factions/items/fragment"},{"predicate":{"custom_model_data":1000333},"model":"custom/factions/raiditems/locks/diamond_lock"},{"predicate":{"custom_model_data":1000334},"model":"custom/factions/raiditems/locks/diamond_lock_door"},{"predicate":{"custom_model_data":1000335},"model":"custom/factions/raiditems/locks/diamond_lock_trapdoor"},{"predicate":{"custom_model_data":1000336},"model":"custom/factions/raiditems/locks/netherite_lock"},{"predicate":{"custom_model_data":1000337},"model":"custom/factions/raiditems/locks/netherite_lock_door"},{"predicate":{"custom_model_data":1000338},"model":"custom/factions/raiditems/locks/netherite_lock_trapdoor"},{"predicate":{"custom_model_data":1000339},"model":"custom/factions/raiditems/locks/silver_lock"},{"predicate":{"custom_model_data":1000340},"model":"custom/factions/raiditems/locks/silver_lock_door"},{"predicate":{"custom_model_data":1000341},"model":"custom/factions/raiditems/locks/silver_lock_trapdoor"},{"predicate":{"custom_model_data":1000342},"model":"custom/factions/items/skill_reset_scroll"},{"predicate":{"custom_model_data":1000343},"model":"custom/general/icons/crownfight_spawn"}]}
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/paper"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "custom/general/specialitems/home_scroll"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "custom/general/specialitems/warp_scroll"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "custom/general/treasurechests/treasurechest_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "custom/general/cosmetics/tools/xmas_fishingrod_present"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "custom/minecraft_party/icons/reset_to_checkpoint"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "custom/minecraft_party/icons/players_visible"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "custom/minecraft_party/icons/players_invisible"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "custom/minecraft_party/icons/ranking"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "custom/general/icons/booster"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "custom/general/icons/info"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "custom/general/icons/mail_closed"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "custom/general/icons/mail_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "custom/general/icons/package"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "custom/general/icons/stopwatch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "custom/general/icons/vote_closed"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "custom/general/icons/vote_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "custom/general/icons/backpack"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "custom/general/icons/balloon"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "custom/general/icons/hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "custom/general/icons/particle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "custom/general/icons/shopping_cart"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "custom/general/icons/single_crystal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 24
+            },
+            "model": "custom/general/icons/skill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 25
+            },
+            "model": "custom/general/icons/tool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 26
+            },
+            "model": "custom/minecraft_party/icons/red_candy"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 27
+            },
+            "model": "custom/minecraft_party/icons/controller"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 28
+            },
+            "model": "custom/minecraft_party/icons/parachute"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 29
+            },
+            "model": "custom/minecraft_party/icons/boost"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 30
+            },
+            "model": "custom/minecraft_party/icons/minigames/block_jumps"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 31
+            },
+            "model": "custom/minecraft_party/icons/minigames/collect"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 32
+            },
+            "model": "custom/minecraft_party/icons/minigames/colorful_chaos"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 33
+            },
+            "model": "custom/minecraft_party/icons/minigames/death_cube"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 34
+            },
+            "model": "custom/minecraft_party/icons/minigames/dropper"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 35
+            },
+            "model": "custom/minecraft_party/icons/minigames/duels"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 36
+            },
+            "model": "custom/minecraft_party/icons/minigames/elytra_race"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 37
+            },
+            "model": "custom/minecraft_party/icons/minigames/gun_game"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 38
+            },
+            "model": "custom/minecraft_party/icons/minigames/horse_race"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39
+            },
+            "model": "custom/minecraft_party/icons/minigames/hot_ground"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 40
+            },
+            "model": "custom/minecraft_party/icons/minigames/hot_potato"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 41
+            },
+            "model": "custom/minecraft_party/icons/minigames/jump_and_run"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 42
+            },
+            "model": "custom/minecraft_party/icons/minigames/king_of_the_hill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 43
+            },
+            "model": "custom/minecraft_party/icons/minigames/lasertag"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44
+            },
+            "model": "custom/minecraft_party/icons/minigames/minefield"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 45
+            },
+            "model": "custom/minecraft_party/icons/minigames/minefight"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 46
+            },
+            "model": "custom/minecraft_party/icons/minigames/musical_minecarts"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 47
+            },
+            "model": "custom/minecraft_party/icons/minigames/one_in_the_chamber"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 48
+            },
+            "model": "custom/minecraft_party/icons/minigames/paintball"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 49
+            },
+            "model": "custom/minecraft_party/icons/minigames/race"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 50
+            },
+            "model": "custom/minecraft_party/icons/minigames/remember_the_sequence"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 51
+            },
+            "model": "custom/minecraft_party/icons/minigames/shooting_range"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 52
+            },
+            "model": "custom/minecraft_party/icons/minigames/skywars"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 53
+            },
+            "model": "custom/minecraft_party/icons/minigames/slimejump"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 54
+            },
+            "model": "custom/minecraft_party/icons/minigames/spleef"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 55
+            },
+            "model": "custom/minecraft_party/icons/minigames/survival_games"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 56
+            },
+            "model": "custom/minecraft_party/icons/minigames/walls"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 57
+            },
+            "model": "custom/minecraft_party/icons/minigames/dragon_escape"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 58
+            },
+            "model": "custom/minecraft_party/icons/minigames/red_light_green_light"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 59
+            },
+            "model": "custom/minecraft_party/icons/minigames/replica"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 60
+            },
+            "model": "custom/general/icons/flags/flag_de"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 61
+            },
+            "model": "custom/general/icons/flags/flag_de_at"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 62
+            },
+            "model": "custom/general/icons/flags/flag_de_ch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 63
+            },
+            "model": "custom/general/icons/flags/flag_en"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 64
+            },
+            "model": "custom/general/icons/flags/flag_es"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 65
+            },
+            "model": "custom/general/icons/flags/flag_fr"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 66
+            },
+            "model": "custom/general/icons/flags/flag_pt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 67
+            },
+            "model": "custom/general/icons/flags/flag_ru"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 68
+            },
+            "model": "custom/general/icons/flags/flag_mxn"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 69
+            },
+            "model": "custom/minecraft_party/icons/minigames/flag_quiz"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 70
+            },
+            "model": "custom/general/specialitems/player_shop"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 71
+            },
+            "model": "custom/general/icons/gamemodes/bedwars"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 72
+            },
+            "model": "custom/general/icons/gamemodes/cactus"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 73
+            },
+            "model": "custom/general/icons/gamemodes/citybuild"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 74
+            },
+            "model": "custom/general/icons/gamemodes/factions"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 75
+            },
+            "model": "custom/general/icons/gamemodes/heroes"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 76
+            },
+            "model": "custom/general/icons/gamemodes/minecraft_party"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 77
+            },
+            "model": "custom/general/icons/gamemodes/skywars"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 78
+            },
+            "model": "custom/general/icons/gamemodes/lobby"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 79
+            },
+            "model": "custom/general/icons/gamemodes/realms"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 80
+            },
+            "model": "custom/general/icons/gamemodes/skyblock"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 81
+            },
+            "model": "custom/general/icons/gamemodes/smash"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 82
+            },
+            "model": "custom/general/icons/gamemodes/timejump"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 83
+            },
+            "model": "custom/general/icons/gamemodes/ultimate_knockout"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 84
+            },
+            "model": "custom/general/icons/util/cancel_icon"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 85
+            },
+            "model": "custom/general/icons/util/check_icon"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 86
+            },
+            "model": "custom/general/icons/util/gray_arrow_left"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 87
+            },
+            "model": "custom/general/icons/util/gray_arrow_right"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 88
+            },
+            "model": "custom/general/icons/util/green_arrow_left"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 89
+            },
+            "model": "custom/general/icons/util/green_arrow_right"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 90
+            },
+            "model": "custom/general/icons/single_rubine"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 200
+            },
+            "model": "custom/general/fishing/baits/common_fishing_bait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 201
+            },
+            "model": "custom/general/fishing/baits/rare_fishing_bait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202
+            },
+            "model": "custom/general/fishing/baits/epic_fishing_bait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 203
+            },
+            "model": "custom/general/fishing/baits/legendary_fishing_bait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 204
+            },
+            "model": "custom/general/fishing/baits/jellyfish_tentacle_bait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 205
+            },
+            "model": "custom/general/fishing/baits/corn_bait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 206
+            },
+            "model": "custom/general/fishing/baits/worm_bait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 207
+            },
+            "model": "custom/general/fishing/baits/dough_balls_bait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 300
+            },
+            "model": "custom/smash/world_repair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 301
+            },
+            "model": "custom/smash/speed"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 302
+            },
+            "model": "custom/smash/glowing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 303
+            },
+            "model": "custom/general/icons/empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 304
+            },
+            "model": "custom/minecraft_party/icons/players_half_visible"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 305
+            },
+            "model": "custom/general/icons/flags/flag_it"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 321
+            },
+            "model": "custom/factions/items/healpotion/health_potion_0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 322
+            },
+            "model": "custom/factions/items/healpotion/health_potion_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 323
+            },
+            "model": "custom/factions/items/healpotion/health_potion_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 324
+            },
+            "model": "custom/factions/items/healpotion/health_potion_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 325
+            },
+            "model": "custom/factions/items/healpotion/health_potion_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 326
+            },
+            "model": "custom/factions/items/healpotion/health_potion_5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 327
+            },
+            "model": "custom/factions/items/healpotion/health_potion_6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 331
+            },
+            "model": "custom/factions/items/crown"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 332
+            },
+            "model": "custom/factions/items/fragment"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 333
+            },
+            "model": "custom/factions/raiditems/locks/diamond_lock"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 334
+            },
+            "model": "custom/factions/raiditems/locks/diamond_lock_door"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 335
+            },
+            "model": "custom/factions/raiditems/locks/diamond_lock_trapdoor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 336
+            },
+            "model": "custom/factions/raiditems/locks/netherite_lock"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 337
+            },
+            "model": "custom/factions/raiditems/locks/netherite_lock_door"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 338
+            },
+            "model": "custom/factions/raiditems/locks/netherite_lock_trapdoor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 339
+            },
+            "model": "custom/factions/raiditems/locks/silver_lock"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 340
+            },
+            "model": "custom/factions/raiditems/locks/silver_lock_door"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 341
+            },
+            "model": "custom/factions/raiditems/locks/silver_lock_trapdoor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 342
+            },
+            "model": "custom/factions/items/skill_reset_scroll"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 343
+            },
+            "model": "custom/general/icons/crownfight_spawn"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 344
+            },
+            "model": "custom/factions/items/war_declaration"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 345
+            },
+            "model": "custom/general/specialitems/text_hologram"
+        }
+    ]
+}

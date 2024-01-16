@@ -1,1 +1,0 @@
-{"parent":"item/generated","textures":{"layer0":"item/shears"},"overrides":[{"predicate":{"custom_model_data":1000002},"model":"custom/smash/levitate_off"},{"predicate":{"custom_model_data":1000003},"model":"custom/smash/levitate_on"}]}
