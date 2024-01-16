@@ -20,4 +20,4 @@ jobs:
         run: gh release create ${{ github.ref }} -t "Release ${{ github.ref_name }}"
 
       - name: Upload Project
-        run: gh release upload ${{ github.ref }} .
+        run: gh release upload ${{ github.ref }} ./
