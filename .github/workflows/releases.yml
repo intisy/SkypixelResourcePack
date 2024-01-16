@@ -24,10 +24,10 @@ jobs:
 
       - name: Zip Project
         run: |
-          find . -type f -not -path './.git/*' -not -path './.github/*' -exec zip -r SkypixelResourcePack.zip {} +
+          find . -type f -not -path './.git/*' -not -path './.github/*' -exec zip -r pack.zip {} +
 
       - name: Upload Zip
-        run: gh release upload ${{ github.ref_name }} SkypixelResourcePack.zip
+        run: gh release upload ${{ github.ref_name }} pack.zip
 
       - name: Delete Zip
-        run: rm SkypixelResourcePack.zip
+        run: rm pack.zip
