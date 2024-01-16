@@ -32,7 +32,7 @@ jobs:
               "pack_format": 13,
               "description": "§7Author §f» §6WilderPizza\n§7Version §f» §7${{ github.ref_name }}"
             }
-          }' > SkypixelResourcePack/pack.mcmeta
+          }' > pack.mcmeta
 
       - name: Zip Project
         run: |
