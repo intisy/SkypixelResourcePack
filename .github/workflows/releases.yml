@@ -16,11 +16,11 @@ jobs:
       - name: Set up Git
         run: echo "${{ secrets.PAT }}" | gh auth login --with-token
 
-      - name: Debug Releases
-        run: gh release list
-
       - name: Create Release
         run: gh release create ${{ github.ref }} -t "Release ${{ github.ref_name }}"
+
+      - name: Debug Releases
+        run: gh release list
 
       - name: Upload Project
         run: gh release upload ${{ github.ref }} .
