@@ -16,11 +16,17 @@ jobs:
       - name: Set up Git
         run: echo "${{ secrets.PAT }}" | gh auth login --with-token
 
-      - name: Create Release
-        run: gh release create ${{ github.ref_name }} -t "Release ${{ github.ref_name }}"
-
       - name: Debug Releases
         run: gh release list
 
-      - name: Upload Project
-        run: gh release upload ${{ github.ref_name }} --pattern "*" --clobber
+      - name: Create Release
+        run: gh release create ${{ github.ref_name }} -t "Release ${{ github.ref_name }}"
+
+      - name: Zip Project
+        run: zip -r SkypixelResourcePack.zip .
+
+      - name: Upload Zip
+        run: gh release upload ${{ github.ref_name }} SkypixelResourcePack.zip
+
+      - name: Delete Zip
+        run: rm SkypixelResourcePack.zip
