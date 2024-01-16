@@ -23,8 +23,12 @@ jobs:
         run: gh release create ${{ github.ref_name }} -t "Release ${{ github.ref_name }}"
 
       - name: Zip Project
-        run: zip -r SkypixelResourcePack.zip .
-
+        run: |
+          zip -r SkypixelResourcePack.zip \
+            --exclude=SkypixelResourcePack.zip \
+            --exclude=.git/* \
+            --exclude=.github/*
+        
       - name: Upload Zip
         run: gh release upload ${{ github.ref_name }} SkypixelResourcePack.zip
 
