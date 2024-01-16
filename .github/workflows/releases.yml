@@ -39,6 +39,9 @@ jobs:
         run: |
           echo "$(md5sum pack.zip | cut -d ' ' -f 1)" > hash.txt
 
+      - name: Upload hash.txt
+        run: gh release upload ${{ github.ref_name }} hash.txt
+
       - name: Upload Zip
         run: gh release upload ${{ github.ref_name }} pack.zip
 
