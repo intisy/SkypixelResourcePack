@@ -34,6 +34,10 @@ jobs:
       - name: Zip Project
         run: |
           find . -type f -not -path './.git/*' -not -path './.github/*' -exec zip -r pack.zip {} +
+        
+      - name: Create hash.txt
+        run: |
+          echo "$(md5sum pack.zip | cut -d ' ' -f 1)" > hash.txt
 
       - name: Upload Zip
         run: gh release upload ${{ github.ref_name }} pack.zip
