@@ -21,6 +21,18 @@ jobs:
 
       - name: Create Release
         run: gh release create ${{ github.ref_name }} -t "Release ${{ github.ref_name }}"
+        
+      - name: Delete pack.mcmeta
+        run: rm pack.mcmeta
+
+      - name: Create pack.mcmeta
+        run: |
+          echo '{
+            "pack": {
+              "pack_format": 13,
+              "description": "§7Author §f» §6WilderPizza\n§7Version §f» §7${{ github.ref_name }}"
+            }
+          }' > SkypixelResourcePack/pack.mcmeta
 
       - name: Zip Project
         run: |
